@@ -1,0 +1,29 @@
+/* Optimized loading animations for headline */
+.loading__item {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  will-change: opacity, transform;
+}
+
+.loading__item.loaded {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Optimize headline title performance */
+.headline__title {
+  font-display: swap;
+  contain: content;
+  content-visibility: auto;
+  contain-intrinsic-size: 0 80px;
+}
+
+/* Preload critical fonts */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Urbanist');
+}

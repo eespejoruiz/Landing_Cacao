@@ -1,0 +1,30 @@
+.youtube-preview {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+.youtube-play-button {
+  width: 68px;
+  height: 48px;
+  position: absolute;
+  cursor: pointer;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.youtube-play-button:hover {
+  transform: scale(1.1);
+}
+
+.youtube-play-button-bg {
+  fill: #ff0000;
+  fill-opacity: 0.8;
+  transition: fill-opacity 0.2s ease-in-out;
+}
+
+.youtube-play-button:hover .youtube-play-button-bg {
+  fill-opacity: 1;
+}

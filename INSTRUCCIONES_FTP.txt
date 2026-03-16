@@ -1,0 +1,54 @@
+INSTRUCCIONES PARA SUBIR EL SITIO WEB DE CACAO POR FTP
+=======================================================
+
+Archivo preparado: cacao-website-ftp.zip (11MB)
+Ubicación: /Users/marcelogonzalez/Scripts_Python/Landing_Cacao/cacao-website-ftp.zip
+
+PASOS PARA SUBIR POR FTP:
+
+1. DESCOMPRIMIR EL ARCHIVO:
+   - Extrae el contenido de cacao-website-ftp.zip
+   - Esto creará todos los archivos y carpetas necesarios
+
+2. CONECTAR AL SERVIDOR FTP:
+   - Usa tu cliente FTP favorito (FileZilla, Cyberduck, etc.)
+   - Conecta con las credenciales de tu hosting
+
+3. SUBIR ARCHIVOS:
+   - Navega al directorio raíz de tu sitio web (generalmente public_html/ o www/)
+   - Sube TODOS los archivos y carpetas extraídos del ZIP
+   - Mantén la estructura de carpetas intacta
+
+4. ARCHIVOS PRINCIPALES INCLUIDOS:
+   ✓ index.html (página principal)
+   ✓ css/ (estilos, incluyendo floating-chat.css)
+   ✓ js/ (scripts, incluyendo floating-chat.js)
+   ✓ img/ (imágenes, incluyendo QR codes)
+   ✓ fonts/ (fuentes)
+   ✓ .htaccess (configuración del servidor)
+   ✓ mail.php (formulario de contacto)
+
+5. FUNCIONALIDADES INCLUIDAS:
+   ✓ Chat flotante en lado izquierdo
+   ✓ Modales QR para WeChat y Line
+   ✓ Sección Portfolio con información de cacao ceremonial
+   ✓ Texto con sombra negra aplicada
+   ✓ Sección "What Makes Our Criollo Unique?" con 5 elementos
+   ✓ Tarjeta "Associated Farmers" actualizada
+   ✓ Tres sliders de testimoniales
+   ✓ Botones "Request sample" vinculados al formulario
+
+6. VERIFICACIÓN POST-SUBIDA:
+   - Visita tu sitio web
+   - Verifica que todas las imágenes cargan correctamente
+   - Prueba el chat flotante
+   - Verifica los modales QR de WeChat y Line
+   - Prueba los formularios de contacto
+
+NOTA: El archivo ZIP excluye automáticamente:
+- Archivos .git
+- Archivos .DS_Store
+- Carpeta source-files/ (archivos de desarrollo)
+- Carpeta .vercel/ (configuración de Vercel)
+
+¡El sitio está listo para producción!
